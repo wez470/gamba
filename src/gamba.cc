@@ -1,5 +1,6 @@
-#include <iostream>
+#include "cpu/cpu.h"
 
 int main() {
-    std::cout << "Gamba emulator" << std::endl;
+    Cpu cpu;
+    cpu.Run();
 }
